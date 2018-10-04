@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82780f3-2d0a-41e0-818e-2016a046d1f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/Form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic.php" beforeDir="false" afterPath="$PROJECT_DIR$/logic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpmailer/PHPMailerAutoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpmailer/PHPMailerAutoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpmailer/class.phpmailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpmailer/class.phpmailer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpmailer/class.smtp.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpmailer/class.smtp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/submit.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +45,7 @@
         <counts>
           <entry key="css" value="305" />
           <entry key="ini" value="25" />
-          <entry key="php" value="12056" />
+          <entry key="php" value="12059" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -64,7 +53,7 @@
           <entry key="CSS" value="267" />
           <entry key="HTML" value="42" />
           <entry key="Ini" value="25" />
-          <entry key="PHP" value="12014" />
+          <entry key="PHP" value="12017" />
           <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
@@ -108,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="391">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -153,7 +142,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -189,12 +178,12 @@
         <option value="$PROJECT_DIR$/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/Form.php" />
-        <option value="$PROJECT_DIR$/submit.php" />
         <option value="$PROJECT_DIR$/helper.php" />
         <option value="$PROJECT_DIR$/phpmailer/class.phpmailer.php" />
         <option value="$PROJECT_DIR$/phpmailer/class.smtp.php" />
         <option value="$PROJECT_DIR$/phpmailer/PHPMailerAutoload.php" />
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/submit.php" />
       </list>
     </option>
   </component>
@@ -285,12 +274,12 @@
       <updated>1537820805026</updated>
       <workItem from="1537820806143" duration="68260000" />
       <workItem from="1538399609873" duration="75545000" />
-      <workItem from="1538611564893" duration="1035000" />
+      <workItem from="1538611564893" duration="1665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144840000" />
+    <option name="totallyTimeSpent" value="145470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -428,13 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -467,6 +449,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
