@@ -350,7 +350,7 @@ class PHPMailer
      * requires an explicit call to smtpClose().
      * @var boolean
      */
-    public $SMTPKeepAlive = false;
+    public $SMTPKeepAlive = False;
 
     /**
      * Whether to split multiple to addresses into multiple messages

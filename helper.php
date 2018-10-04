@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Utility function to quickly dump data to the page
  * @param null $mixed
  */

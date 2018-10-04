@@ -66,7 +66,8 @@ if(isset($_GET['submit']) and !$hasErrors) {
         <p>I would like to order the following drug:<br>
         $drug $quantity $unit<br>
         $miscellaneous<br>
-        Thank You</p>
+        Thank You,<br>
+        Trong</p>
      </body>";
 
     # Send email, if not successful print not sent else reset session

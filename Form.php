@@ -2,7 +2,7 @@
 namespace DWA;
 class Form
 {
-    /**
+    /*
      * Properties
      */
     private $request;

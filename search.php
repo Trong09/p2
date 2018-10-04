@@ -56,5 +56,5 @@ $_SESSION['location'] = $location;
 $_SESSION['email'] = $email;
 $_SESSION['searchTerm'] = $searchTerm;
 
-# Redirect back to the form index.php
+# redirect back to the form index.php
 header('Location: index.php');

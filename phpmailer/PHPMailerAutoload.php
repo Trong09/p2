@@ -19,7 +19,7 @@
 
 /**
  * PHPMailer SPL autoloader.
- * @param string $classname The name of the class to load
+ * @param string $classname The name of the clas to load
  */
 function PHPMailerAutoload($classname)
 {

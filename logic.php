@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-# Set variables into empty strings
+# Set variable into empty string
 $hasErrors = false;
 $quantity = '';
 $miscellaneous ='';

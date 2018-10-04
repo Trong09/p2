@@ -132,7 +132,7 @@ class SMTP
      * @link http://www.postfix.org/VERP_README.html Info on VERP
      * @var boolean
      */
-    public $do_verp = false;
+    public $do_verp = False;
 
     /**
      * The timeout value for connection, in seconds.

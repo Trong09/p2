@@ -22,7 +22,6 @@ require "logic.php";
 
         <!-- Initiate Form  -->
         <form method="GET" action="search.php">
-
             <!-- Drug Name Text Input -->
             <div class="form-group">
                 <label>Drug Name</label>
