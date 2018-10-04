@@ -41,7 +41,7 @@ if(isset($_GET['submit']) and !$hasErrors) {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = 587;
-    $mail->SMTPSecure = 'ssl';
+    $mail->SMTPSecure = 'tls';
     $mail->SMTPAuth = true;
     $mail->Username = 'Trongnguyen10990@gmail.com';
     $mail->Password = 'Shower31';
@@ -72,6 +72,7 @@ if(isset($_GET['submit']) and !$hasErrors) {
 
     # Send email, if not successful print not sent else reset session
     if(!$mail->send()) {
+        session_destroy();
         echo 'Message was not sent.';
 
     } else {
@@ -81,3 +82,4 @@ if(isset($_GET['submit']) and !$hasErrors) {
 
 # Redirect back to the form index.php
 header('Location: index.php');
+session_destroy();
