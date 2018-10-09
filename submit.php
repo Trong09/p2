@@ -73,7 +73,10 @@ if(isset($_GET['submit']) and !$hasErrors) {
     # Send email, if not successful print not sent else reset session
     if(!$mail->send()) {
         session_destroy();
+        $error =$mail->Errorinfo;
+        echo $error;
         echo 'Message was not sent.';
+        die();
 
     } else {
         session_destroy();
