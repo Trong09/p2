@@ -38,7 +38,7 @@ if(isset($_GET['submit']) and !$hasErrors) {
     $mail = new PHPMailer;
 
     # PHPMailer Settings
-    $mail->isSMTP();
+    #$mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = 587;
     $mail->SMTPSecure = 'ssl';
