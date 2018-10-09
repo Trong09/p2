@@ -29,7 +29,7 @@ if (isset($_SESSION['email'])) {
 }
 
 # send email from PHPMailer Class
-if(isset($_GET['submit']) and !$hasErrors) {
+if(isset($_GET['submit'])) {
 
     # Insert content of PHPMailer class
     require 'phpmailer/PHPMailerAutoload.php';
@@ -40,8 +40,11 @@ if(isset($_GET['submit']) and !$hasErrors) {
     # PHPMailer Settings
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
+    $mail->SMTPDebug = 2;
+
+
     $mail->Port = 587;
-    $mail->SMTPSecure = 'ssl';
+    $mail->SMTPSecure = 'tls';
     $mail->SMTPAuth = true;
     $mail->Username = 'Trongnguyen10990@gmail.com';
     $mail->Password = 'Shower31';
@@ -73,9 +76,8 @@ if(isset($_GET['submit']) and !$hasErrors) {
     # Send email, if not successful print not sent else reset session
     if(!$mail->send()) {
         session_destroy();
-        $error =$mail->Errorinfo;
+        $error = $mail->isError();
         echo $error;
-        echo 'Message was not sent.';
         die();
 
     } else {
